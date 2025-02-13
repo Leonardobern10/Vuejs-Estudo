@@ -40,6 +40,8 @@ const produtos = [
     <label>
       <input type="checkbox" v-model="aceito" />
       Aceito os termos
+      <p v-if="aceito === true">Os termos foram aceitos</p>
+      <p v-else>Os termos nao foram aceitos</p>
     </label>
 
     <h3>Resumo do Cadastro</h3>

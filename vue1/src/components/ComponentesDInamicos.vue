@@ -5,7 +5,6 @@ import Archive from "./componentesDinamicos/Archive.vue";
 import { ref } from "vue";
 
 const currentTab = ref("Home");
-
 const tabs = {
   Home,
   Posts,
@@ -38,7 +37,6 @@ const tabs = {
   user-select: none;
   overflow-x: auto;
 }
-
 .tab-button {
   padding: 6px 10px;
   border-top-left-radius: 3px;
